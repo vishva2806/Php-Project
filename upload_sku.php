@@ -21,7 +21,7 @@
                 $title = mysqli_real_escape_string($conn, trim($row[1]));
                 $modelName = mysqli_real_escape_string($conn, trim($row[2]));
                 $categories = mysqli_real_escape_string($conn, trim($row[3]));
-                $price = mysqli_real_escape_string($conn, trim($row[4]));
+                $price = mysqli_real_escape_string($conn, trim($row[4])); 
                 $stock = mysqli_real_escape_string($conn, trim($row[5]));
                 $imageName = mysqli_real_escape_string($conn, trim($row[6]));
             
